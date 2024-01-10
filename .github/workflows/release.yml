@@ -43,8 +43,6 @@ jobs:
                 --generate-notes
       - run: echo "version=$(npm show @nandhirajan-tfi/my-package version)" >> $GITHUB_ENV
       - run: npm version ${{env.version}} --no-git-tag-version --allow-same-version
-      - run: npm install
-      - run: npm build
       - run: npm version patch -m "[RELEASE] %s" --no-git-tag-version --allow-same-version
       - run: npm publish
         env:
