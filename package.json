@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --project=@glory-imo-dev/shared-components && npm run watch",
-    "watch": "ng build --watch --configuration development",
+    "build": "ng build --project=@glory-imo-dev/shared-components",
     "test": "ng test",
     "deploy": "ng deploy --base-href=/angular-release/"
 
