@@ -1,5 +1,5 @@
 {
-  "name": "angular-release",
+  "name": "shared-components",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,6 +7,14 @@
     "build": "ng build --project=@glory-imo-dev/shared-components",
     "test": "ng test"
 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3si-khanhnv/angular-release.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "private": true,
   "dependencies": {
