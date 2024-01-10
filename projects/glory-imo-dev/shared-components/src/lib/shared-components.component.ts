@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <p>
-      shared-components works!
+      shared-components works 123!
     </p>
   `,
   styles: ``
